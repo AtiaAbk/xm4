@@ -3,7 +3,7 @@ n = int(input("Enter number of students: "))
 fail_count = 0
 
 for i in range(1, n + 1):
-    marks = float(input(f"Enter marks for student {i}: "))
+    marks = float(input("Enter marks for student: "))
     
     if marks >= 80:
         grade = "A"
@@ -12,9 +12,9 @@ for i in range(1, n + 1):
     elif marks >= 40:
         grade = "C"
     else:
-        grade = "Fail"
+        grade = "fail"
         fail_count += 1
     
-    print(f"Student {i} Grade:", grade)
+    print(grade)
 
-print("Total students failed:", fail_count)
+print("total students failed:", fail_count)
