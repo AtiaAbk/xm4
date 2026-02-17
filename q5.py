@@ -16,5 +16,4 @@ for i in range(1, n + 1):
         fail_count += 1
     
     print(grade)
-
 print("total students failed:", fail_count)
